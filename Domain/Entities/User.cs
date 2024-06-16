@@ -2,7 +2,7 @@
 
 using Domain.Entities;
 
-namespace CleanArchitecture.Domain.Entities;
+namespace Domain.Entities;
 
 public sealed class User : BaseEntity
 {
