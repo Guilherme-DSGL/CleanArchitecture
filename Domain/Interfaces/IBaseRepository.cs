@@ -1,11 +1,6 @@
-﻿using Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CleanArchitecture.Domain.Entities;
 
-namespace Domain.Interfaces;
+namespace CleanArchitecture.Domain.Interfaces;
 public interface IBaseRepository<T> where T : BaseEntity
 {
     void Create(T entity);

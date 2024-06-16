@@ -1,8 +1,8 @@
 ﻿
 
-using Domain.Entities;
+using CleanArchitecture.Domain.Entities;
 
-namespace Domain.Entities;
+namespace CleanArchitecture.Domain.Entities;
 
 public sealed class User : BaseEntity
 {

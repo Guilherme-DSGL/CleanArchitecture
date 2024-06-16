@@ -1,6 +1,6 @@
-﻿using CleanArchitecture.Persistence.Context;
-using Domain.Entities;
-using Domain.Interfaces;
+﻿using CleanArchitecture.Domain.Entities;
+using CleanArchitecture.Domain.Interfaces;
+using CleanArchitecture.Persistence.Context;
 using Microsoft.EntityFrameworkCore;
 
 namespace CleanArchitecture.Persistence.Repositories;
